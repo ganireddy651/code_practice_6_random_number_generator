@@ -10,12 +10,17 @@
 }
 .random-number-generator-card {
   background-color: #ffffff;
-  width: 80%;
+  width: 100%;
   max-width: 410px;
   padding: 50px;
   box-shadow: 0px 4px 16px 0px #bfbfbf;
   text-align: center;
   border-radius: 10px;
+}
+@media screen and (max-width: 576px) {
+  .random-number-generator-card {
+    max-width: 0px;
+  }
 }
 .heading {
   color: #0b69ff;
